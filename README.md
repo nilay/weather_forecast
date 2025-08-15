@@ -20,7 +20,7 @@ This project is a simple web application that allows users to get weather inform
 ```mermaid
 graph TD
     A[User] -- enters city --> B[React.js Frontend]
-    B -- fetches city weather --> C[Weather API (e.g., OpenWeatherMap)]
+    B -- fetches city weather --> C[Weather API e.g., OpenWeatherMap]
     C -- returns weather data --> B
     B -- displays result --> A
 ```
